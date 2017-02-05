@@ -1,25 +1,25 @@
 
 # Start using Virtual Environment and Django on Mac
 
-1. Open Terminal (Applications > Utilities > Terminal)
+    1. Open Terminal (Applications > Utilities > Terminal)
 
-2. Enter the following commands: The command sudo will require an admin password. The same password you use to install other programs. 
+    2. Enter the following commands: The command sudo will require an admin password. The same password you use to install other programs. 
 
-3. Install Pip. (Python Package Installer):
+    3. Install Pip. (Python Package Installer):
 
 
 ```python
 sudo easy_install pip
 ```
 
-4. Install virtualenv:
+    4. Install virtualenv:
 
 
 ```python
 sudo pip install virtualenv
 ```
 
-5. Navigate to where you want to store your code.
+    5. Navigate to where you want to store your code.
 
 
 ```python
@@ -27,7 +27,7 @@ mkdir my_django_project
 cd my_django_project
 ```
 
-6. INSIDE my_django_project folder create a new virtualenv:
+    6. INSIDE my_django_project folder create a new virtualenv:
 
 
 ```python
@@ -36,7 +36,7 @@ virtualenv env
 
 
 
-7. Activate virtualenv:
+    7. Activate virtualenv:
 
 
 
@@ -54,7 +54,7 @@ The result in Terminal should be like:
 (env)Name_of_your_computer:my_django_project name_of_your_computer$
 ```
 
-8. Install Django:
+    8. Install Django:
 
 
 ```python
