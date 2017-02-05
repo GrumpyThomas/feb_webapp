@@ -45,9 +45,9 @@ source env/bin/activate
 ```
 
 
-```python
+
 The result in Terminal should be like:
-```
+
 
 
 ```python
