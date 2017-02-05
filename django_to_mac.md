@@ -35,9 +35,9 @@ virtualenv env
 ```
 
 
-```python
+
 7. Activate virtualenv:
-```
+
 
 
 ```python
