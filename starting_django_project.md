@@ -54,7 +54,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-    9. go to your browser eneter the server ip from terminal
+    9. go to your browser enter the server ip from terminal
 
 
 
