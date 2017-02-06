@@ -17,6 +17,8 @@ sudo easy_install pip
 
 ```python
 sudo pip install virtualenv
+or if you get an error
+sudo -H pip install virtualenv
 ```
 
     5. Navigate to where you want to store your code.
@@ -60,3 +62,10 @@ The result in Terminal should be like:
 ```python
 pip install django
 ```
+
+
+
+
+
+
+
