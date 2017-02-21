@@ -1,4 +1,5 @@
 <h1>{{ object.title }}</h1>
-<p>{{ object.content }}</p>
+<p>{{ object.content | safe }}</p>
 <p>slug: {{ object.slug }}</p>
 <p>Published: {{ object.published }}</p>
+<img src="{{ object.image.url}}">
