@@ -8,6 +8,7 @@ from django.urls import reverse_lazy
 from posts.models import Post
 
 
+
 class PostListView(ListView):
 
 	model = Post
@@ -29,7 +30,7 @@ class PostUpdate(UpdateView):
     model = Post
     fields = ['title','slug','content','image']
     template_name_suffix = '_update_form'
-
+    
 
 
 
